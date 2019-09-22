@@ -50,7 +50,7 @@ if (!accessToken || !budgetId || !accountId) {
                     return {
                         account_id: accountId,
                         date: moment(btValues[0]).format('YYYY-MM-DD'),
-                        amount: parseInt(btValues[5].replace(',', '.')) * 1000,
+                        amount: parseFloat(btValues[5].replace(',', '.')) * 1000,
                         payee_name: btValues[2].substring(0, 49),
                         cleared: ynab.SaveTransaction.ClearedEnum.Uncleared,
                     }
