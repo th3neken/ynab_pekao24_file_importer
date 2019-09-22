@@ -1,0 +1,26 @@
+{
+  "name": "ynab_pekao24_file_importer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node ynab.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/th3neken/ynab_pekao24_file_importer.git"
+  },
+  "author": "Łukasz \"theneken\" Boruń",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/th3neken/ynab_pekao24_file_importer/issues"
+  },
+  "homepage": "https://github.com/th3neken/ynab_pekao24_file_importer#readme",
+  "dependencies": {
+    "csv-parser": "2.3.0",
+    "moment": "2.24.0",
+    "yargs": "14.0.0",
+    "ynab": "1.16.0"
+  }
+}
