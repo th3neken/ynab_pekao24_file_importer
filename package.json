@@ -1,8 +1,8 @@
 {
   "name": "ynab_pekao24_file_importer",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "With this importer you can send a bank csv file with transactions to YNAB",
+  "main": "ynab.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "run": "node ynab.js"
